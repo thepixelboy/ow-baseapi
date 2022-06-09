@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6" /* Sets ECMAScript version */,
+    "module": "commonjs" /* Sets transpiler version */,
+    "declaration": true /* Generates '.d.ts' files */,
+    "outDir": "./dist" /* Folder where the transpiled JS code is stored */,
+    "rootDir": "./src" /* Folder where the transpiled code is stored */,
+    "strict": true /* Sets the strict mode on */,
+    "esModuleInterop": true /* Sets interoperability between commonJS and other versions */,
+    "experimentalDecorators": true /* Sets the ES7 experimental decorators on (useful for dependency injection) */,
+    "emitDecoratorMetadata": true /* Sets the emitted decorator metadata on */,
+    "skipLibCheck": true /* Skips the archive declaration */,
+    "forceConsistentCasingInFileNames": true /* Sets off the same archive declaration to avoid inconsistency */
+  },
+  "include": [
+    "src/**/*.ts"
+  ] /* Folders and file types that typescript looks for transpilation */,
+  "exclude": ["node_modules"] /* Folders to avoid when compiling */
+}
