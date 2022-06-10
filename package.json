@@ -7,7 +7,7 @@
     "start": "node --require dotenv/config ./dist/server.js",
     "build": "npm run clean && npm run format && npx tsc",
     "clean": "npx rimraf dist",
-    "format": "npx prettier --write 'src/**/*/*.ts'",
+    "format": "npx prettier --write 'src/**/*.ts'",
     "start:dev": "npx nodemon",
     "start:prod": "npm run build && npm run start"
   },
