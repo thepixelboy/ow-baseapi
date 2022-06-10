@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node --require dotenv/config ./dist/server.js",
     "build": "npm run clean && npx tsc",
-    "clean": "npx rimraf dist"
+    "clean": "npx rimraf dist",
+    "start:dev": "npx nodemon",
+    "start:prod": "npm run build && npm run start"
   },
   "keywords": [
     "api",
